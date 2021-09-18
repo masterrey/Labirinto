@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Rotation
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-334.5035,"y":-82.63887},"zoom":0.9500001,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-697.0,"y":-194.0},"guid":"e437f624-78c5-4cea-bdaf-b58ad7ab6a23","$version":"A","$type":"Bolt.Update","$id":"9"},{"chainable":false,"member":{"name":"Rotate","parameterTypes":["System.Single","System.Single","System.Single"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%xAngle":{"$content":0.0,"$type":"System.Single"},"%yAngle":{"$content":1.0,"$type":"System.Single"},"%zAngle":{"$content":0.0,"$type":"System.Single"}},"position":{"x":-370.0,"y":-268.0},"guid":"ecfa09cf-77c9-48fc-8c9c-c0f596c08394","$version":"A","$type":"Bolt.InvokeMember","$id":"11"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"d88ca536-74cd-48a4-82ee-de20f84a8294","$type":"Bolt.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []

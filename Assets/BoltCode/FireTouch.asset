@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: FireTouch
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":163.6917,"y":292.9333},"zoom":0.9,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"16f1134c-34c7-467f-8471-b6695bbddaff","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"d9a0255a-a26e-4a7a-8acc-9768926036a5","$version":"A","$type":"Bolt.Update"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-198.0,"y":288.0},"guid":"9e839c8b-4066-43b3-adcc-f3ac76ded66e","$version":"A","$type":"Bolt.OnTriggerEnter","$id":"13"},{"argumentCount":0,"defaultValues":{"name":{"$content":"Death","$type":"System.String"},"target":null},"position":{"x":235.0,"y":243.0},"guid":"1bac1efd-ca6d-473d-bade-8a952abff116","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"15"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"b19da2db-1011-4417-a119-d928145118be","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"collider","destinationUnit":{"$ref":"15"},"destinationKey":"target","guid":"57d1d3e5-f315-43e5-9281-262060ae5871","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
